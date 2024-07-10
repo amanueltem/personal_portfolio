@@ -24,8 +24,11 @@ function pageTranstions() {
             })
             e.target.classList.add('active')
             //hide other sections
+            
             sections.forEach((section)=>{
+                console.log(i)
                 section.classList.remove('active')
+                i++
             })
             const element=document.getElementById(id)
             element.classList.add("active")
