@@ -330,10 +330,44 @@ section {
 
 .contact-content-con {
   display: flex;
-  padding-top: 3.5rem;
+  padding-top: 0.5rem;
 }
 .contact-content-con .left-contact {
   flex: 2;
+}
+.contact-content-con .left-contact .contact-icons {
+  display: flex;
+}
+.contact-content-con .left-contact .contact-icons .contact-icon {
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contact-content-con .right-contact {
+  flex: 3;
+  margin-left: 3rem;
+}
+.contact-content-con .right-contact .input-control {
+  margin: 1.5rem 0;
+}
+.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textArea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  width: 100%;
+  color: var(--color-white);
+  background-color: var(--color-grey-4);
+  resize: none;
+}
+.contact-content-con .right-contact .i-c-2 {
+  display: flex;
+}
+.contact-content-con .right-contact .i-c-2 :last-child {
+  margin-left: 1.5rem;
 }
 
 /*Independent component*/
