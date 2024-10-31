@@ -34,6 +34,15 @@ function pageTranstions() {
             element.classList.add("active")
         }
     })
+
+
+    //toggle theme
+    const themeBtn=document.querySelector('.theme-btn');
+    themeBtn.addEventListener('click',()=>{
+        console.log("i am here in body.")
+        let element=document.body;
+        element.classList.toggle('light-mode')
+    })
 }
 
 pageTranstions()
